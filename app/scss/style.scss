@@ -434,6 +434,31 @@ th {
   position: fixed;
   top: 300px;
   right: 250px;
-  color: #19f0e5;
+  font-weight: bold;
+  // color: #19f0e5;
+  // color: #ec1313;
+  // color: #5bec13;
+  // color: #F9D93F;
+  //FE0100
+  //28A40
+}
+.anim-result{
+  animation: anim-result 11s linear 1;
+}
+@keyframes anim-result{
+  0%{
+    background-color: #f00c0c;
+  }
+  100%{
+    background-color: #0ec70e;
+  }
+}
+
+.colors-container{
+  position: absolute;
+  left: 50%;
+  top: 100px;
+  width: 300px;
+  z-index: 10;
 }
 @import "media";
